@@ -57,4 +57,4 @@ bot.on("message", function (message) {
 
 	}	
 });
-bot.login("NDk2Mzc1NDAxNTg1NzA0OTYx.DpPt1A.oIcQvRuUgyHxq5s8St6-kNP8vf0");
+bot.login(bot.login(process.env.BOT_TOKEN););
