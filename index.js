@@ -57,4 +57,4 @@ bot.on("message", function (message) {
 
 	}	
 });
-bot.login(bot.login(process.env.BOT_TOKEN););
+bot.login(bot.login(process.env.BOT_TOKEN));
