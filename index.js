@@ -18,7 +18,7 @@ bot.on("message", function (message) {
 	if (message.author.equals(bot.user)) return;
 	
 	if (message.content.startsWith(PREFIX)){
-		var args = message.content.substring(PREFIX.length).split(" ");
+		var args = message.content.substring(PREFIX.length).split(" ");			//hello there
 		
 		switch (args[0].toLowerCase()){
 			case "test": //**Tests
